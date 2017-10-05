@@ -24,9 +24,13 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   position: absolute;
-  bottom: .8em;
+  bottom: 1.25em;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.polaroid:hover {
+    box-shadow: 4px 16px 24px rgba(0, 0, 0, .75);
 }
 
 .polaroid:first-child {
